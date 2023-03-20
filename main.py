@@ -19,9 +19,9 @@ writer.goto(0, -300)
 writer.write("Type 'Exit' to finish", False, align="center", font=('Courier', 15, 'normal'))
 
 
-def time_convert(sec):
-    minutes = sec / 60
-    sec = sec % 60
+def time_convert(times):
+    minutes = times / 60
+    sec = times % 60
 
     keeper = Turtle()
     keeper.hideturtle()
